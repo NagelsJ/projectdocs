@@ -60,6 +60,13 @@ https://templatemo.com/tm-600-prism-flux
                 description: 'Intelligent IoT ecosystem connecting millions of devices with edge computing capabilities.',
                 image: 'images/iot-matrix.jpg',
                 tech: ['MQTT', 'Edge AI', '5G']
+            },
+            {
+                id: 8,
+                title: 'Week 8',
+                description: 'Intelligent IoT ecosystem connecting millions of devices with edge computing capabilities.',
+                image: 'images/iot-matrix.jpg',
+                tech: ['MQTT', 'Edge AI', '5G']
             }
         ];
 
