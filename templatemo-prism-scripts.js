@@ -14,49 +14,49 @@ https://templatemo.com/tm-600-prism-flux
         const portfolioData = [
             {
                 id: 1,
-                title: 'Neural Network',
+                title: 'Week 1',
                 description: 'Advanced AI system with deep learning capabilities for predictive analytics and pattern recognition.',
                 image: 'images/neural-network.jpg',
                 tech: ['TensorFlow', 'Python', 'CUDA']
             },
             {
                 id: 2,
-                title: 'Quantum Cloud',
+                title: 'Week 2',
                 description: 'Next-generation cloud infrastructure leveraging quantum computing for unprecedented processing power.',
                 image: 'images/quantum-cloud.jpg',
                 tech: ['AWS', 'Kubernetes', 'Docker']
             },
             {
                 id: 3,
-                title: 'Blockchain Vault',
+                title: 'Week 3',
                 description: 'Secure decentralized storage solution using advanced encryption and distributed ledger technology.',
                 image: 'images/blockchain-vault.jpg',
                 tech: ['Ethereum', 'Solidity', 'Web3']
             },
             {
                 id: 4,
-                title: 'Cyber Defense',
+                title: 'Week 4',
                 description: 'Military-grade cybersecurity framework with real-time threat detection and automated response.',
                 image: 'images/cyber-defense.jpg',
                 tech: ['Zero Trust', 'AI Defense', 'Encryption']
             },
             {
                 id: 5,
-                title: 'Data Nexus',
+                title: 'Week 5',
                 description: 'Big data processing platform capable of analyzing petabytes of information in real-time.',
                 image: 'images/data-nexus.jpg',
                 tech: ['Apache Spark', 'Hadoop', 'Kafka']
             },
             {
                 id: 6,
-                title: 'AR Interface',
+                title: 'Week 6',
                 description: 'Augmented reality system for immersive data visualization and interactive experiences.',
                 image: 'images/ar-interface.jpg',
                 tech: ['Unity', 'ARCore', 'Computer Vision']
             },
             {
                 id: 7,
-                title: 'IoT Matrix',
+                title: 'Week 7',
                 description: 'Intelligent IoT ecosystem connecting millions of devices with edge computing capabilities.',
                 image: 'images/iot-matrix.jpg',
                 tech: ['MQTT', 'Edge AI', '5G']
