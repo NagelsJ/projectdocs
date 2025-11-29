@@ -358,7 +358,7 @@ https://templatemo.com/tm-600-prism-flux
 
         // Initialize on load
         initCarousel();
-        initSkillsGrid();
+        // initSkillsGrid();
         initParticles();
 
         // Mobile menu toggle
@@ -471,22 +471,6 @@ https://templatemo.com/tm-600-prism-flux
         if (statsSection) {
             observer.observe(statsSection);
         }
-
-        // Form submission
-        const contactForm = document.getElementById('contactForm');
-        contactForm.addEventListener('submit', (e) => {
-            e.preventDefault();
-            
-            // Get form data
-            const formData = new FormData(contactForm);
-            const data = Object.fromEntries(formData);
-            
-            // Show success message
-            alert(`Thank you ${data.name}! Your message has been transmitted successfully. We'll respond within 24 hours.`);
-            
-            // Reset form
-            contactForm.reset();
-        });
 
         // Loading screen
         window.addEventListener('load', () => {

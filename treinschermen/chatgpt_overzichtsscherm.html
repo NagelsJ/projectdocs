@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Treinoverzicht</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #e0f2ff;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+  }
+  .board {
+    display: flex;
+    background: white;
+    border: 4px solid #3ca4ff;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  .column {
+    border-left: 1px solid #ccc;
+    padding: 10px;
+  }
+  .column:first-child {
+    border-left: none;
+  }
+  .header {
+    display: flex;
+    justify-content: space-between;
+    background: #bfbfbf;
+    padding: 5px 10px;
+    font-weight: bold;
+  }
+  .row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #e6e6e6;
+    margin: 3px 0;
+    padding: 5px 8px;
+  }
+  .row div {
+    width: 33%;
+    text-align: left;
+  }
+  .destination {
+    text-transform: uppercase;
+  }
+  .line {
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    border-radius: 3px;
+    width: 25px;
+  }
+
+  /* Kleuren van de lijnen */
+  .l1  { background: #a000a0; }
+  .l2  { background: #e2d24c; color: black; }
+  .l3  { background: #f2b134; }
+  .l4  { background: #e27adc; }
+  .l5  { background: #52e2e2; color: black; }
+  .l6  { background: #b3a6f2; }
+  .l7  { background: #e24b34; }
+  .l8  { background: #d96b6b; }
+  .l9  { background: #3ed46b; }
+  .l12 { background: #68cc68; }
+  .l14 { background: #b97e28; }
+  .l15 { background: #44b5e2; }
+</style>
+</head>
+<body>
+  <div class="board">
+    <div class="column">
+      <div class="header">
+        <span>🕐</span><span>📍</span><span>🚆</span>
+      </div>
+      <div class="row"><div>13:16</div><div class="destination">Gent</div><div class="line l4">4</div></div>
+      <div class="row"><div>13:16</div><div class="destination">Brugge</div><div class="line l9">9</div></div>
+      <div class="row"><div>13:16</div><div class="destination">Brussel</div><div class="line l15">15</div></div>
+      <div class="row"><div>13:16</div><div class="destination">Leuven</div><div class="line l7">7</div></div>
+      <div class="row"><div>13:16</div><div class="destination">Antwerpen</div><div class="line l3">3</div></div>
+      <div class="row"><div>13:16</div><div class="destination">Luik</div><div class="line l6">6</div></div>
+    </div>
+
+    <div class="column">
+      <div class="header">
+        <span>🕐</span><span>📍</span><span>🚆</span>
+      </div>
+      <div class="row"><div>13:16</div><div class="destination">Namen</div><div class="line l2">2</div></div>
+      <div class="row"><div>13:16</div><div class="destination">Oostende</div><div class="line l5">5</div></div>
+      <div class="row"><div>13:16</div><div class="destination">Turnhout</div><div class="line l8">8</div></div>
+      <div class="row"><div>13:16</div><div class="destination">Geel</div><div class="line l12">12</div></div>
+      <div class="row"><div>13:16</div><div class="destination">Nieuwpoort</div><div class="line l1">1</div></div>
+      <div class="row"><div>13:16</div><div class="destination">Mol</div><div class="line l14">14</div></div>
+    </div>
+  </div>
+</body>
+</html>
