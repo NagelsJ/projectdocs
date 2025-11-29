@@ -15,58 +15,74 @@ https://templatemo.com/tm-600-prism-flux
             {
                 id: 1,
                 title: 'Week 1',
-                description: 'Advanced AI system with deep learning capabilities for predictive analytics and pattern recognition.',
+                description: 'Low-Fidelity (Low-Fi) Mockups schetsen.',
                 image: 'images/neural-network.jpg',
-                tech: ['TensorFlow', 'Python', 'CUDA']
+                tech: ['Low-Fi', 'Mockups', 'Schetsen'],
+                sectie: 'week1'
             },
             {
                 id: 2,
                 title: 'Week 2',
-                description: 'Next-generation cloud infrastructure leveraging quantum computing for unprecedented processing power.',
+                description: 'Low-Fidelity (Low-Fi) Mockups context toevoegen.',
                 image: 'images/quantum-cloud.jpg',
-                tech: ['AWS', 'Kubernetes', 'Docker']
+                tech: ['Low-Fi', 'Mockups', 'Context'],
+                sectie: 'week2'
             },
             {
                 id: 3,
                 title: 'Week 3',
-                description: 'Secure decentralized storage solution using advanced encryption and distributed ledger technology.',
+                description: 'Low-Fidelity (Low-Fi) Mockups finaliseren.',
                 image: 'images/blockchain-vault.jpg',
-                tech: ['Ethereum', 'Solidity', 'Web3']
+                tech: ['Low-Fi', 'Mockups', 'Finaliseren'],
+                sectie: 'week3'
             },
             {
                 id: 4,
                 title: 'Week 4',
-                description: 'Military-grade cybersecurity framework with real-time threat detection and automated response.',
+                description: 'Mid-Fidelity (Mid-Fi) Figma treinschermen ontwerpen.',
                 image: 'images/cyber-defense.jpg',
-                tech: ['Zero Trust', 'AI Defense', 'Encryption']
+                tech: ['Mid-Fi', 'Figma', 'Ontwerpen'],
+                sectie: 'week4'
             },
             {
                 id: 5,
                 title: 'Week 5',
-                description: 'Big data processing platform capable of analyzing petabytes of information in real-time.',
+                description: 'Mid-Fidelity (Mid-Fi) Figma treinschermen aanpassen.',
                 image: 'images/data-nexus.jpg',
-                tech: ['Apache Spark', 'Hadoop', 'Kafka']
+                tech: ['Mid-Fi', 'Figma', 'Aanpassen'],
+                sectie: 'week5'
             },
             {
                 id: 6,
                 title: 'Week 6',
-                description: 'Augmented reality system for immersive data visualization and interactive experiences.',
+                description: 'Mid-Fidelity (Mid-Fi) Figma treinschermen finaliseren.',
                 image: 'images/ar-interface.jpg',
-                tech: ['Unity', 'ARCore', 'Computer Vision']
+                tech: ['Mid-Fi', 'Figma', 'Finaliseren'],
+                sectie: 'week6'
             },
             {
                 id: 7,
                 title: 'Week 7',
-                description: 'Intelligent IoT ecosystem connecting millions of devices with edge computing capabilities.',
+                description: 'High-Fidelity (High-Fi) HTML Overzichtsscherm',
                 image: 'images/iot-matrix.jpg',
-                tech: ['MQTT', 'Edge AI', '5G']
+                tech: ['High-Fi', 'HTML', 'Overzichtsscherm'],
+                sectie: 'week7'
             },
             {
                 id: 8,
                 title: 'Week 8',
-                description: 'Intelligent IoT ecosystem connecting millions of devices with edge computing capabilities.',
+                description: 'Mid-Fidelity (Mid-Fi) Figma Inlog- en welkomscherm.',
                 image: 'images/iot-matrix.jpg',
-                tech: ['MQTT', 'Edge AI', '5G']
+                tech: ['Mid-Fi', 'Figma', 'App', 'Login'],
+                sectie: 'week8'
+            },
+            {
+                id: 9,
+                title: 'Week 9',
+                description: 'High-Fidelity (High-Fi) HTML Start vanaf template.',
+                image: 'images/iot-matrix.jpg',
+                tech: ['High-Fi', 'HTML', 'Template'],
+                sectie: 'week9'
             }
         ];
 
@@ -148,7 +164,7 @@ https://templatemo.com/tm-600-prism-flux
                     <h3 class="card-title">${data.title}</h3>
                     <p class="card-description">${data.description}</p>
                     <div class="card-tech">${techBadges}</div>
-                    <button class="card-cta" onclick="scrollToSection('about')">Explore</button>
+                    <button class="card-cta" onclick="scrollToSection('${data.sectie}')">Bekijk inhoud</button>
                 </div>
             `;
             
@@ -323,7 +339,7 @@ https://templatemo.com/tm-600-prism-flux
         document.getElementById('prevBtn').addEventListener('click', prevSlide);
 
         // Auto-rotate carousel
-        setInterval(nextSlide, 5000);
+        setInterval(nextSlide, 10000);
 
         // Keyboard navigation
         document.addEventListener('keydown', (e) => {
