@@ -1,14 +1,5 @@
 // JavaScript Document
 
-/*
-
-TemplateMo 600 Prism Flux
-
-https://templatemo.com/tm-600-prism-flux
-
-*/
-
-
 // Portfolio data for carousel
 
         const portfolioData = [
