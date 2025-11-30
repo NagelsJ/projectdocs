@@ -7,7 +7,7 @@
                 id: 1,
                 title: 'Week 1',
                 description: 'Low-Fidelity (Low-Fi) Mockups schetsen.',
-                image: 'images/neural-network.jpg',
+                image: 'images/week1.png',
                 tech: ['Low-Fi', 'Mockups', 'Schetsen'],
                 sectie: 'week1'
             },
@@ -15,7 +15,7 @@
                 id: 2,
                 title: 'Week 2',
                 description: 'Low-Fidelity (Low-Fi) Mockups context toevoegen.',
-                image: 'images/quantum-cloud.jpg',
+                image: 'images/week2.png',
                 tech: ['Low-Fi', 'Mockups', 'Context'],
                 sectie: 'week2'
             },
@@ -23,7 +23,7 @@
                 id: 3,
                 title: 'Week 3',
                 description: 'Low-Fidelity (Low-Fi) Mockups finaliseren.',
-                image: 'images/blockchain-vault.jpg',
+                image: 'images/week3.jpg',
                 tech: ['Low-Fi', 'Mockups', 'Finaliseren'],
                 sectie: 'week3'
             },
@@ -31,7 +31,7 @@
                 id: 4,
                 title: 'Week 4',
                 description: 'Mid-Fidelity (Mid-Fi) Figma treinschermen ontwerpen.',
-                image: 'images/cyber-defense.jpg',
+                image: 'images/week4.jpg',
                 tech: ['Mid-Fi', 'Figma', 'Ontwerpen'],
                 sectie: 'week4'
             },
@@ -39,7 +39,7 @@
                 id: 5,
                 title: 'Week 5',
                 description: 'Mid-Fidelity (Mid-Fi) Figma treinschermen aanpassen.',
-                image: 'images/data-nexus.jpg',
+                image: 'images/week5.jpg',
                 tech: ['Mid-Fi', 'Figma', 'Aanpassen'],
                 sectie: 'week5'
             },
@@ -47,7 +47,7 @@
                 id: 6,
                 title: 'Week 6',
                 description: 'Mid-Fidelity (Mid-Fi) Figma treinschermen finaliseren.',
-                image: 'images/ar-interface.jpg',
+                image: 'images/week6.jpg',
                 tech: ['Mid-Fi', 'Figma', 'Finaliseren'],
                 sectie: 'week6'
             },
@@ -55,7 +55,7 @@
                 id: 7,
                 title: 'Week 7',
                 description: 'High-Fidelity (High-Fi) HTML Overzichtsscherm',
-                image: 'images/iot-matrix.jpg',
+                image: 'images/week7.jpg',
                 tech: ['High-Fi', 'HTML', 'Overzichtsscherm'],
                 sectie: 'week7'
             },
@@ -63,7 +63,7 @@
                 id: 8,
                 title: 'Week 8',
                 description: 'Mid-Fidelity (Mid-Fi) Figma Inlog- en welkomscherm.',
-                image: 'images/iot-matrix.jpg',
+                image: 'images/week8.jpg',
                 tech: ['Mid-Fi', 'Figma', 'App', 'Login'],
                 sectie: 'week8'
             },
@@ -71,7 +71,7 @@
                 id: 9,
                 title: 'Week 9',
                 description: 'High-Fidelity (High-Fi) HTML Start vanaf template.',
-                image: 'images/iot-matrix.jpg',
+                image: 'images/week9.jpg',
                 tech: ['High-Fi', 'HTML', 'Template'],
                 sectie: 'week9'
             }
@@ -411,6 +411,9 @@
                         link.classList.remove('active');
                         const href = link.getAttribute('href').substring(1);
                         if (href === sectionId) {
+                            link.classList.add('active');
+                        }
+                        if (href === sectionId.substring(0,4)) {
                             link.classList.add('active');
                         }
                     });

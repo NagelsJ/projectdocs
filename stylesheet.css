@@ -224,6 +224,7 @@ body::after {
 	justify-content: center;
 }
 
+/*
 .prism-shape {
 	width: 30px;
 	height: 30px;
@@ -234,8 +235,9 @@ body::after {
 			var(--accent-blue) 33%,
 			var(--accent-green) 66%,
 			var(--accent-purple) 100%);
-	animation: prismShine 3s ease-in-out infinite;
+	animation: prismShine 3s ease-in-out infinite; 
 }
+*/
 
 @keyframes prismShine {
 
@@ -427,7 +429,7 @@ body::after {
 			transparent,
 			rgba(255, 255, 255, 0.5),
 			transparent);
-	animation: scanline 3s linear infinite;
+/*	animation: scanline 3s linear infinite; */
 }
 
 @keyframes scanline {
