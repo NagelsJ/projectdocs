@@ -74,6 +74,14 @@
                 image: 'images/week9.jpg',
                 tech: ['High-Fi', 'HTML', 'Template'],
                 sectie: 'week9'
+            },
+            {
+                id: 10,
+                title: 'Week 10',
+                description: 'Mid-Fidelity (Mid-Fi) Figma interactions.',
+                image: 'images/week10.jpg',
+                tech: ['Mid-Fi', 'Figma', 'Interactions'],
+                sectie: 'week10'
             }
         ];
 
@@ -350,7 +358,7 @@
         // Initialize on load
         initCarousel();
         // initSkillsGrid();
-        initParticles();
+        // initParticles();
 
         // Mobile menu toggle
         const menuToggle = document.getElementById('menuToggle');
