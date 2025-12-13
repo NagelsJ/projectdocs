@@ -609,7 +609,7 @@ body::after {
 .philosophy-container {
 	max-width: 1200px;
 	margin: 0 auto;
-	text-align: center;
+/*	text-align: center; */
 }
 
 /* Animated Prism Line */
@@ -631,13 +631,14 @@ body::after {
 	height: 100%;
 	background: linear-gradient(90deg,
 			transparent,
-			var(--accent-red) 20%,
+/*			var(--accent-red) 20%, */
 			var(--accent-blue) 40%,
 			var(--accent-green) 60%,
 			var(--accent-purple) 80%,
 			transparent);
 
 	animation: prismSweep 4s ease-in-out infinite;
+	text-align: center;
 }
 
 @keyframes prismSweep {
@@ -668,6 +669,8 @@ body::after {
 	background-clip: text;
 	background-size: 200% 200%;
 	animation: gradientFlow 5s ease infinite;
+	text-align: center;
+
 }
 
 @keyframes gradientFlow {
@@ -691,6 +694,7 @@ body::after {
 	margin: 0 auto 80px;
 	line-height: 1.6;
 	font-weight: 300;
+	text-align: justify;
 }
 
 .philosophy-pillars {

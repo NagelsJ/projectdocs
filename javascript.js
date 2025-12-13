@@ -82,6 +82,14 @@
                 image: 'images/week10.jpg',
                 tech: ['Mid-Fi', 'Figma', 'Interactions'],
                 sectie: 'week10'
+            },
+            {
+                id: 11,
+                title: 'Week 11',
+                description: 'Website en Figma verfijnen.',
+                image: 'images/week11.jpg',
+                tech: ['HTML', 'Figma'],
+                sectie: 'week11'
             }
         ];
 
