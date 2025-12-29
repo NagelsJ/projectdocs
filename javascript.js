@@ -90,6 +90,14 @@
                 image: 'images/week11.jpg',
                 tech: ['HTML', 'Figma'],
                 sectie: 'week11'
+            },
+            {
+                id: 12,
+                title: 'Week 12',
+                description: 'Website en Figma finaliseren.',
+                image: 'images/week12.jpg',
+                tech: ['HTML', 'Figma'],
+                sectie: 'week12'
             }
         ];
 

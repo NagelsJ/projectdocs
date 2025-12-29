@@ -697,6 +697,16 @@ body::after {
 	text-align: justify;
 }
 
+.philosophy-imaging {
+	font-size: 20px;
+	color: var(--text-secondary);
+	max-width: 700px;
+	margin: 0 auto 80px;
+	line-height: 1.6;
+	font-weight: 300;
+	text-align: center;
+}
+
 .philosophy-pillars {
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
